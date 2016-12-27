@@ -1,0 +1,239 @@
+// Pin1 3V3
+#define PIN1_PORT				0
+#define PIN1_OFFSET				0
+#define PIN1_ORDER_IN_CPLD		-1
+#define PIN1_BALL_NAME			""
+
+// Pin2 5V
+#define PIN2_PORT				0
+#define PIN2_OFFSET				0
+#define PIN2_ORDER_IN_CPLD		-1
+#define PIN2_BALL_NAME			""
+
+// Pin3 I2C1_DATA
+#define PIN3_PORT				0xB2
+#define PIN3_OFFSET				0x5400
+#define PIN3_ORDER_IN_CPLD		0
+#define PIN3_BALL_NAME			"W15"
+
+// Pin4 5V
+#define PIN4_PORT				0
+#define PIN4_OFFSET				0
+#define PIN4_ORDER_IN_CPLD		-1
+#define PIN4_BALL_NAME			""
+
+// Pin5 I2C1_CLK
+#define PIN5_PORT				0xB2
+#define PIN5_OFFSET				0x5418
+#define PIN5_ORDER_IN_CPLD		1
+#define PIN5_BALL_NAME			"W16"
+
+// Pin6 GND
+#define PIN6_PORT				0
+#define PIN6_OFFSET				0
+#define PIN6_ORDER_IN_CPLD		-1
+#define PIN6_BALL_NAME			""
+
+// Pin7 ISH_GPIO[0]/I2S3_CLK
+#define PIN7_PORT				0xA8
+#define PIN7_OFFSET				0x4830
+#define PIN7_ORDER_IN_CPLD		2
+#define PIN7_BALL_NAME			"AB2"
+
+// Pin8 UART1_DATAOUT/UART0_DATAOUT
+#define PIN8_PORT				0xB2
+#define PIN8_OFFSET				0x4828
+#define PIN8_ORDER_IN_CPLD		15
+#define PIN8_BALL_NAME			"AC14"
+
+// Pin9 GND
+#define PIN9_PORT				0
+#define PIN9_OFFSET				0
+#define PIN9_ORDER_IN_CPLD		-1
+#define PIN9_BALL_NAME			""
+
+// Pin10 UART1_DATAIN/UART0_DATAIN
+#define PIN10_PORT				0xB2
+#define PIN10_OFFSET			0x4808
+#define PIN10_ORDER_IN_CPLD		16
+#define PIN10_BALL_NAME			"AD14"
+
+// Pin11 SD2_CMD
+#define PIN11_PORT				0x48
+#define PIN11_OFFSET			0x4838
+#define PIN11_ORDER_IN_CPLD		3
+#define PIN11_BALL_NAME			"AB5"
+
+// Pin12 LPE_I2S2_CLK
+#define PIN12_PORT				0xB2
+#define PIN12_OFFSET			0x5C10
+#define PIN12_ORDER_IN_CPLD		17
+#define PIN12_BALL_NAME			"AB19"
+
+// Pin13 SD2_CLK
+#define PIN13_PORT				0x48
+#define PIN13_OFFSET			0x4820
+#define PIN13_ORDER_IN_CPLD		4
+#define PIN13_BALL_NAME			"AD5"
+
+// Pin14 GND
+#define PIN14_PORT				0
+#define PIN14_OFFSET			0
+#define PIN14_ORDER_IN_CPLD		-1
+#define PIN14_BALL_NAME			""
+
+// Pin15 SD2_D[0]
+#define PIN15_PORT				0x48
+#define PIN15_OFFSET			0x4850
+#define PIN15_ORDER_IN_CPLD		5
+#define PIN15_BALL_NAME			"AD4"
+
+// Pin16 SD2_D[1]
+#define PIN16_PORT				0x48
+#define PIN16_OFFSET			0x4818
+#define PIN16_ORDER_IN_CPLD		18
+#define PIN16_BALL_NAME			"AE4"
+
+// Pin17 3V3
+#define PIN17_PORT				0
+#define PIN17_OFFSET			0
+#define PIN17_ORDER_IN_CPLD		-1
+#define PIN17_BALL_NAME			""
+
+// Pin18 SD2_D[2]
+#define PIN18_PORT				0x48
+#define PIN18_OFFSET			0x4830
+#define PIN18_ORDER_IN_CPLD		19
+#define PIN18_BALL_NAME			"AE5"
+
+// Pin19 PMC_PLT_CLK[5]/ISH_GPIO[15]/ISH_I2C0_CLK/SPI2_MOSI
+#define PIN19_PORT				0x48
+#define PIN19_OFFSET			0x4430
+#define PIN19_ORDER_IN_CPLD		6
+#define PIN19_BALL_NAME			"AE3"
+
+// Pin20 GND
+#define PIN20_PORT				0
+#define PIN20_OFFSET			0
+#define PIN20_ORDER_IN_CPLD		-1
+#define PIN20_BALL_NAME			""
+
+// Pin21 PMC_PLT_CLK[4]/ISH_GPIO[14]/ISH_I2C0_DATA/SPI2_MISO
+#define PIN21_PORT				0x48
+#define PIN21_OFFSET			0x4418
+#define PIN21_ORDER_IN_CPLD		7
+#define PIN21_BALL_NAME			"AC3"
+
+// Pin22 SD2_D[3]_CD_N
+#define PIN22_PORT				0x48
+#define PIN22_OFFSET			0x4800
+#define PIN22_ORDER_IN_CPLD		20
+#define PIN22_BALL_NAME			"AD6"
+
+// Pin23 PMC_PLT_CLK[3]/ISH_GPIO[13]/ISH_UART_RTS_N/SPI2_CLK
+#define PIN23_PORT				0x48
+#define PIN23_OFFSET			0x4420
+#define PIN23_ORDER_IN_CPLD		8
+#define PIN23_BALL_NAME			"AB4"
+
+// Pin24 PMC_PLT_CLK[2]/ISH_GPIO[12]/ISH_UART_CTS_N/SPI2_CS[0]_N
+#define PIN24_PORT				0x48
+#define PIN24_OFFSET			0x4438
+#define PIN24_ORDER_IN_CPLD		21
+#define PIN24_BALL_NAME			"AC4"
+
+// Pin25 GND
+#define PIN25_PORT				0
+#define PIN25_OFFSET			0
+#define PIN25_ORDER_IN_CPLD		-1
+#define PIN25_BALL_NAME			""
+
+// Pin26 GPIO_SE79/GPIO23/SPI_CS1N
+#define PIN26_PORT				0x48
+#define PIN26_OFFSET			0x5820
+#define PIN26_ORDER_IN_CPLD		22
+#define PIN26_BALL_NAME			"AA13"
+
+// Pin27 I2C0_DATA
+#define PIN27_PORT				0xB2
+#define PIN27_OFFSET			0x5408
+#define PIN27_ORDER_IN_CPLD		9
+#define PIN27_BALL_NAME			"Y18"
+
+// Pin28 I2C0_CLK
+#define PIN28_PORT				0xB2
+#define PIN28_OFFSET			0x5428
+#define PIN28_ORDER_IN_CPLD		23
+#define PIN28_BALL_NAME			"Y17"
+
+// Pin29 ISH_GPIO[2]/I2S3_DATAOUT
+#define PIN29_PORT				0xA8
+#define PIN29_OFFSET			0x4848
+#define PIN29_ORDER_IN_CPLD		10
+#define PIN29_BALL_NAME			"AB3"
+
+// Pin30 GND
+#define PIN30_PORT				0
+#define PIN30_OFFSET			0
+#define PIN30_ORDER_IN_CPLD		-1
+#define PIN30_BALL_NAME			""
+
+// Pin31 ISH_GPIO[3]/I2S3_DATAIN
+#define PIN31_PORT				0xA8
+#define PIN31_OFFSET			0x4800
+#define PIN31_ORDER_IN_CPLD		11
+#define PIN31_BALL_NAME			"Y1"
+
+// Pin32 PWM[0]
+#define PIN32_PORT				0x48
+#define PIN32_OFFSET			0x4428
+#define PIN32_ORDER_IN_CPLD		24
+#define PIN32_BALL_NAME			"AD3"
+
+// Pin33 PWM[1]/ISH_GPIO[10]/ISH_UART_DATAOUT
+#define PIN33_PORT				0x48
+#define PIN33_OFFSET			0x4408
+#define PIN33_ORDER_IN_CPLD		12
+#define PIN33_BALL_NAME			"AD2"
+
+// Pin34 GND
+#define PIN34_PORT				0
+#define PIN34_OFFSET			0
+#define PIN34_ORDER_IN_CPLD		-1
+#define PIN34_BALL_NAME			""
+
+// Pin35 LPE_I2S2_FRM
+#define PIN35_PORT				0xB2
+#define PIN35_OFFSET			0x5C30
+#define PIN35_ORDER_IN_CPLD		13
+#define PIN35_BALL_NAME			"AC19"
+
+// Pin36 ISH_GPIO[4]/I2S4_CLK
+#define PIN36_PORT				0xA8
+#define PIN36_OFFSET			0x4838
+#define PIN36_ORDER_IN_CPLD		25
+#define PIN36_BALL_NAME			"AC2"
+
+// Pin37 ISH_GPIO[9]/ISH_SPI_MISO/I2S5_FS
+#define PIN37_PORT				0xA8
+#define PIN37_OFFSET			0x4828
+#define PIN37_ORDER_IN_CPLD		14
+#define PIN37_BALL_NAME			"AA4"
+
+// Pin38 LPE_I2S2_DATAIN
+#define PIN38_PORT				0xB2
+#define PIN38_OFFSET			0x5C20
+#define PIN38_ORDER_IN_CPLD		26
+#define PIN38_BALL_NAME			"U17"
+
+// Pin39 GND
+#define PIN39_PORT				0
+#define PIN39_OFFSET			0
+#define PIN39_ORDER_IN_CPLD		-1
+#define PIN39_BALL_NAME			""
+
+// Pin40 LPE_I2S2_DATAOUT
+#define PIN40_PORT				0xB2
+#define PIN40_OFFSET			0x5C38
+#define PIN40_ORDER_IN_CPLD		27
+#define PIN40_BALL_NAME			"V18"
